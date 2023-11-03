@@ -1,1 +1,1 @@
-Contacto{nombre='Rodrigo', apellido='Roldan', telefono=12313123, email='rodrigo_roldan18@hotmail.com'}
+Contacto{nombre='Nombre1', apellido='Apellido1', telefono=123456, email='email1@example.com'}Contacto{nombre='Nombre2', apellido='Apellido2', telefono=789012, email='email2@example.com'}
