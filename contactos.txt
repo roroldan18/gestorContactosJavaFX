@@ -1,0 +1,1 @@
+Contacto{nombre='Rodrigo', apellido='Roldan', telefono=12313123, email='rodrigo_roldan18@hotmail.com'}

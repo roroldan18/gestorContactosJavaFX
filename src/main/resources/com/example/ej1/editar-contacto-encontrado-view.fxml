@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="419.0" prefWidth="334.0" style="-fx-background-color: #FF0000;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ej1.EditarContactoEntontradoController">
+   <children>
+      <Text layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Editar" textAlignment="CENTER" wrappingWidth="333.9999999999998">
+         <font>
+            <Font name="Georgia" size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="editarButton" layoutX="38.0" layoutY="357.0" mnemonicParsing="false" onAction="#onEditar" prefHeight="30.0" prefWidth="116.0" text="Editar">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelarButton" layoutX="175.0" layoutY="357.0" mnemonicParsing="false" onAction="#onCancelar" prefHeight="30.0" prefWidth="106.0" text="Cancelar">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Text fx:id="titleText" layoutX="21.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contacto encontrado: " wrappingWidth="292.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="nombreInput" layoutX="21.0" layoutY="162.0" prefHeight="26.0" prefWidth="292.0" />
+      <Text fx:id="textEmail" layoutX="21.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Correo electrónico" wrappingWidth="292.0">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="nombreLayout" layoutX="21.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre" wrappingWidth="292.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="apellidoInput" layoutX="21.0" layoutY="238.0" prefHeight="26.0" prefWidth="292.0" />
+      <Text fx:id="apellidoLayout" layoutX="21.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apellido" wrappingWidth="292.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="telefonoInput" layoutX="21.0" layoutY="309.0" prefHeight="26.0" prefWidth="292.0" />
+      <Text fx:id="telefonoLayout" layoutX="21.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Teléfono" wrappingWidth="292.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

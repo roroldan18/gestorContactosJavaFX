@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="348.0" prefWidth="334.0" style="-fx-background-color: #FF0000;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ej1.ContactoView">
+   <children>
+      <Text layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contacto" textAlignment="CENTER" wrappingWidth="333.9999999999998">
+         <font>
+            <Font name="Georgia" size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="agregarButton" layoutX="80.0" layoutY="105.0" mnemonicParsing="false" onAction="#onAgregar" prefHeight="30.0" prefWidth="173.0" text="Agregar">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="buscarContactoButton" layoutX="79.0" layoutY="147.0" mnemonicParsing="false" onAction="#onBuscarContacto" prefHeight="30.0" prefWidth="174.0" text="Buscar contacto">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="listarButton" layoutX="79.0" layoutY="186.0" mnemonicParsing="false" onAction="#onListarTodos" prefHeight="30.0" prefWidth="174.0" text="Listar todos">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="exportarButton" layoutX="79.0" layoutY="224.0" mnemonicParsing="false" onAction="#onExportar" prefHeight="30.0" prefWidth="174.0" text="Exportar contactos">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="salirButton" layoutX="80.0" layoutY="291.0" mnemonicParsing="false" onAction="#onSalir" prefHeight="30.0" prefWidth="174.0" text="Salir">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
